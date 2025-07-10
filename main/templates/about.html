@@ -70,10 +70,10 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="{% static 'index.html' %}">Home</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="testimonial.html">Testimonial</a>
+                <a href="{% static 'index' %}">Home</a>
+                <a href="{% static 'about' %}">About</a>
+                <a href="{% static 'blog' %}">Blog</a>
+                <a href="{% static 'testimonial' %}">Testimonial</a>
               </div>
             </div>
           </div>
@@ -102,7 +102,9 @@
           </div>
           <div class="detail-box">
             <p>
-              Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+             ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+
+              — A happy customer
             </p>
             <a href="">
               <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -148,7 +150,7 @@
               </a>
             </li>
             <li>
-              <a class="" href="testimonial.html">
+              <a class="" href="{% url "testimonial" %}">
                 Testimonial
               </a>
             </li>
@@ -184,15 +186,15 @@
 
   </div>
   <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
   <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
+  <script src="{% static 'js/bootstrap.js' %}"></script>
   <!-- slick  slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
   <!-- nice select -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
-  <script src="js/custom.js"></script>
+  <script src="{% static 'js/custom.js' %}"></script>
 
 
 </body>

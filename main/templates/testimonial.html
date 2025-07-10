@@ -65,15 +65,15 @@
             </div>
             <div class="custom_menu-btn">
               <button onclick="openNav()">
-                <img src="images/menu.png" alt="">
+                <img src="{% static 'images/menu.png' %}" alt="">
               </button>
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="testimonial.html">Testimonial</a>
+                <a href="{% url 'index' %}">Home</a>
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'blog' %}">Blog</a>
+                <a href="{% url 'testimonial' %}">Testimonial</a>
               </div>
             </div>
           </div>
@@ -98,10 +98,12 @@
             <div class="carousel-item active">
               <div class="detail-box">
                 <h4>
-                  Virginia
+                Saffron Secret
                 </h4>
                 <p>
-                  Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+
+— A happy customer
                 </p>
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
@@ -109,10 +111,11 @@
             <div class="carousel-item">
               <div class="detail-box">
                 <h4>
-                  Virginia
+                 Saffron Secret
                 </h4>
                 <p>
-                  Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                 ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+                 — A happy customer
                 </p>
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
@@ -120,10 +123,12 @@
             <div class="carousel-item">
               <div class="detail-box">
                 <h4>
-                  Virginia
+                  Saffron Secret
                 </h4>
                 <p>
-                  Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+
+— A happy customer
                 </p>
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
@@ -162,22 +167,22 @@
         <div class="info_links">
           <ul>
             <li class="active">
-              <a href="index.html">
+              <a href="{% url 'index' %}">
                 Home
               </a>
             </li>
             <li>
-              <a href="about.html">
+              <a href="{% url 'about' %}">
                 About
               </a>
             </li>
             <li>
-              <a class="" href="blog.html">
+              <a class="" href="{% url 'blog' %}">
                 Blog
               </a>
             </li>
             <li>
-              <a class="" href="testimonial.html">
+              <a class="" href="{% url 'testimonial' %}">
                 Testimonial
               </a>
             </li>
@@ -213,15 +218,15 @@
 
   </div>
   <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
   <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
+  <script src="{% static 'js/bootstrap.js' %}"></script>
   <!-- slick  slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
   <!-- nice select -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
-  <script src="js/custom.js"></script>
+  <script src="{% static 'js/custom.js' %}"></script>
 
 
 </body>
