@@ -21,3 +21,21 @@ def base(request):
 
 def mutton(request):
     return render(request, 'subPages/mutton.html')
+
+def chicken(request):
+    return render(request, 'subPages/chicken.html')
+
+def egg(request):
+    return render(request, 'subPages/egg.html')
+
+def fish(request):
+    return render(request, 'subPages/fish.html')
+
+def fry(request):
+    return render(request, 'subPages/fry.html')
+
+def raita(request):
+    return render(request, 'subPages/raita.html')
+
+def sweet(request):
+    return render(request, 'subPages/sweet.html')
