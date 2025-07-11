@@ -18,3 +18,6 @@ def testimonial(request):
 
 def base(request):
     return render(request, 'base.html')
+
+def mutton(request):
+    return render(request, 'subPages/mutton.html')

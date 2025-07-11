@@ -28,10 +28,13 @@
   <!-- font awesome style -->
   <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" />
   <!-- nice select -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
   <!-- slidck slider -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map"
+    integrity="undefined" crossorigin="anonymous" />
 
 
   <!-- Custom styles for this template -->
@@ -72,7 +75,7 @@
               </button>
             </div>
             <div id="myNav" class="overlay">
-             <div class="overlay-content">
+              <div class="overlay-content">
                 <a href="{% url 'index' %}">Home</a>
                 <a href="{% url 'about' %}">About</a>
                 <a href="{% url 'blog' %}">Blog</a>
@@ -130,44 +133,52 @@
       <div class="slider_container">
         <div class="item">
           <div class="img-box">
-            <img src="{% static 'images/mutton/awadhi/chcken1' %}" alt="" />
+            <a href="#">
+              <img src="{% static 'images/slider_images/ChickenSlider.png' %}" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-Fbox">
+            <a href="{% url 'mutton' %}">
+              <img src="{% static 'images/slider_images/MuttonSlider.png' %}" alt="" />
+            </a>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="{% static 'images/slider-img2.png' %}" alt="" />
+            <a href="">
+              <img src="{% static 'images/slider_images/FishSlider.png' %}" alt="" />
+            </a>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="{% static 'images/slider-img3.png' %}" alt="" />
+            <a href="">
+              <img src="{% static 'images/slider_images/FrySlider.png' %}" alt="" />
+            </a>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="{% static 'images/slider-img4.png' %}" alt="" />
+            <img src="{% static 'images/slider_images/EggSlider.png' %}" alt="" />
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="{% static 'images/slider-img1.png' %}" alt="" />
+            <a href="">
+              <img src="{% static 'images/slider_images/RaitaSlider.png' %}" alt="" />
+            </a>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="{% static 'images/slider-img2.png' %}" alt="" />
+            <a href="">
+              <img src="{% static 'images/slider_images/SweetSlider.png' %}" alt="" />
+            </a>
           </div>
         </div>
-        <div class="item">
-          <div class="img-box">
-            <img src="{% static 'images/slider-img3.png' %}" alt="" />
-          </div>
-        </div>
-        <div class="item">
-          <div class="img-box">
-            <img src="{% static 'images/slider-img4.png' %}" alt="" />
-          </div>
-        </div>
+
       </div>
     </section>
     <!-- end slider section -->
@@ -253,7 +264,8 @@
                 Saffron Secret App
               </h2>
               <p>
-                long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The poin
+                long established fact that a reader will be distracted by the readable content of a page when looking at
+                its layout. The poin
               </p>
               <div class="app_btn_box">
                 <a href="" class="mr-1">
@@ -299,7 +311,11 @@
           </div>
           <div class="detail-box">
             <p>
-              ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+              ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each
+              grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's
+              clear they use top-quality ingredients and cook with love. The service is friendly, the portions are
+              generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic,
+              mouthwatering biryani. Highly recommended!"
 
               — A happy customer
             </p>
@@ -334,7 +350,8 @@
                 Tasty Food For you
               </h4>
               <p>
-                there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                Internet tend to repeat predefined
               </p>
               <a href="">
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -352,7 +369,8 @@
                 Breakfast For you
               </h4>
               <p>
-                there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                Internet tend to repeat predefined
               </p>
               <a href="">
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -384,9 +402,13 @@
                   Saffron Secret
                 </h4>
                 <p>
-                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each
+                  grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices.
+                  It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions
+                  are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave
+                  authentic, mouthwatering biryani. Highly recommended!"
 
-                — A happy customer
+                  — A happy customer
                 </p>
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
@@ -397,9 +419,13 @@
                   Saffron Secret
                 </h4>
                 <p>
-                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each
+                  grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices.
+                  It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions
+                  are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave
+                  authentic, mouthwatering biryani. Highly recommended!"
 
-                — A happy customer
+                  — A happy customer
                 </p>
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
               </div>
@@ -407,10 +433,14 @@
             <div class="carousel-item">
               <div class="detail-box">
                 <h4>
-                 Saffron Secret
+                  Saffron Secret
                 </h4>
                 <p>
-                 ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices. It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave authentic, mouthwatering biryani. Highly recommended!"
+                  ⭐ "Absolutely delightful! Saffron Secret Biryani Shop has completely changed how I enjoy biryani. Each
+                  grain of rice is infused with rich saffron aroma, tender meats, and just the right blend of spices.
+                  It's clear they use top-quality ingredients and cook with love. The service is friendly, the portions
+                  are generous, and the biryani is consistently amazing. This is my go-to place whenever I crave
+                  authentic, mouthwatering biryani. Highly recommended!"
 
                   — A happy customer
                 </p>
@@ -493,8 +523,8 @@
       <div class="container">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br>
-          Distributed By: <a href="https://themewagon.com/">ThemeWagon</a>
+          <a href="https://html.design/">Maxgen Technology</a><br>
+          Distributed By: <a href="#">Maxgen Technology</a>
         </p>
       </div>
     </footer>
@@ -508,7 +538,8 @@
   <!-- slick  slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
   <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
   <script src="{% static 'js/custom.js' %}"></script>
 
