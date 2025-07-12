@@ -9,5 +9,11 @@ urlpatterns = [
     path('blog/', views.blog, name='blog'),
     path('testimonial/', views.testimonial, name='testimonial'),
     path('mutton/', views.mutton, name='mutton'),
+    path('chicken/', views.chicken, name='chicken'),
+    path('egg/', views.egg, name='egg'),
+    path('fish/', views.fish, name='fish'),
+    path('fry/', views.fry, name='fry'),
+    path('raita/', views.raita, name='raita'),
+    path('sweet/', views.sweet, name='sweet')
     
 ]
